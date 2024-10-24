@@ -15,14 +15,15 @@ btns.forEach(function (btn) {
       count = 0;
     }
 
+    // Vishal Chauhan
     if (count > 0) {
-      value.style.color = "green";
+      value.style.color = "blue";
     }
     if (count < 0) {
-      value.style.color = "red";
+      value.style.color = "green";
     }
     if (count === 0) {
-      value.style.color = "#222";
+      value.style.color = "000";
     }
     value.textContent = count;
   });
